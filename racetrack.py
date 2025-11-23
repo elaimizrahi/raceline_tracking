@@ -7,6 +7,7 @@ import matplotlib.axes as axes
 class RaceTrack:
 
     def __init__(self, filepath : str):
+        self.raceline = None
         data = np.loadtxt(filepath, comments="#", delimiter=",")
         self.centerline = data[:, 0:2]
         self.centerline = np.vstack((self.centerline[-1], self.centerline, self.centerline[0]))
