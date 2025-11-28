@@ -24,7 +24,7 @@ Edit `controller.py` to write controller. Other files can be edited, but with di
 Times on objective sim timer (backup_controller):
 - Monza - 94.60 / 0
 - Montreal - 79.90 / 0
-- IMC - 58.50 / 0
+- IMS - 58.50 / 0
 
 Times on objective sim timer (controller):
 - Monza - 77.00 / 0
