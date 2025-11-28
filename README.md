@@ -21,7 +21,12 @@ python main.py ./racetracks/IMS.csv ./racetracks/IMS_raceline.csv
 
 Edit `controller.py` to write controller. Other files can be edited, but with discretion.
 
-Times on objective sim timer:
+Times on objective sim timer (backup_controller):
 - Monza - 94.60 / 0
 - Montreal - 79.90 / 0
 - IMC - 58.50 / 0
+
+Times on objective sim timer (controller):
+- Monza - 77.00 / 0
+- Montreal - 67.00 / 0
+- IMS - 42.50 / 0
